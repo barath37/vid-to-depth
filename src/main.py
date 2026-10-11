@@ -41,7 +41,8 @@ def run_pipeline(
     telemetry_path: str,
     output_dir: str = "data/output",
     config_path: str = "configs/pipeline_config.yaml",
-    serve_viewer: bool = False
+    serve_viewer: bool = False,
+    port: int = 8000
 ):
     """Executes the complete end-to-end 3D reconstruction pipeline (Steps 0 through 6)."""
     timer = StageTimer(budget_minutes=15.0)
@@ -82,10 +83,16 @@ def run_pipeline(
         smoother = TrajectoryEKFSmoother(gps_std=1.5, baro_std=0.5, accel_std=0.5)
         smoothed_enu = smoother.filter_and_smooth(times, raw_enu)
 
-        # Camera intrinsics (default 1080p drone spec)
+        # Camera intrinsics adapted dynamically to video dimensions
+        import cv2
+        _cap_probe = cv2.VideoCapture(video_path)
+        vid_w = int(_cap_probe.get(cv2.CAP_PROP_FRAME_WIDTH)) or 1920
+        vid_h = int(_cap_probe.get(cv2.CAP_PROP_FRAME_HEIGHT)) or 1080
+        _cap_probe.release()
+
         calib = CameraIntrinsics.from_sensor_specs(
-            image_width=1920,
-            image_height=1080,
+            image_width=vid_w,
+            image_height=vid_h,
             sensor_width_mm=13.2,
             sensor_height_mm=8.8,
             focal_length_mm=8.8
@@ -194,7 +201,7 @@ def run_pipeline(
     # Step 3: Confidence-Aware Depth Completion & Pseudo-LiDAR
     # -------------------------------------------------------------
     with timer.measure("Step 3: Confidence-Aware Depth Completion"):
-        depth_estimator = MonocularDepthEstimator(use_mock=True) # Deterministic offline execution
+        depth_estimator = MonocularDepthEstimator(use_mock=False) # Real Depth Anything V2 execution
         confidence_tagger = EpistemicConfidenceTagger()
         unprojector = PseudoLiDARUnprojector(K, max_depth_m=300.0)
 
@@ -312,27 +319,39 @@ def run_pipeline(
 
     if serve_viewer:
         from src.viewer.server import start_server
-        logger.info("Launching local inspection viewer at http://127.0.0.1:8000 ...")
-        start_server(deliverables_dir=output_dir)
+        logger.info(f"Launching local inspection viewer at http://127.0.0.1:{port} ...")
+        start_server(deliverables_dir=output_dir, port=port)
 
     return summary
 
 
 def main():
     parser = argparse.ArgumentParser(description="SIH26158 Single-Pass Drone Video to 3D Model Generation Pipeline")
-    parser.add_argument("--video", type=str, default="data/samples/synthetic_drone_flight.mp4", help="Path to drone MP4 video")
-    parser.add_argument("--telemetry", type=str, default="data/samples/synthetic_drone_flight.srt", help="Path to telemetry SRT or CSV")
-    parser.add_argument("--output-dir", type=str, default="data/output", help="Directory for deliverables")
+    parser.add_argument("--video", type=str, default=None, help="Path to drone MP4 video")
+    parser.add_argument("--telemetry", type=str, default=None, help="Path to telemetry SRT or CSV")
+    parser.add_argument("--output", "--output-dir", dest="output_dir", type=str, default="data/output", help="Directory for deliverables")
     parser.add_argument("--config", type=str, default="configs/pipeline_config.yaml", help="Configuration YAML path")
-    parser.add_argument("--serve", action="store_true", help="Launch interactive 3D Web inspection viewer upon completion")
+    parser.add_argument("--serve", action="store_true", help="Launch interactive 3D Web inspection viewer")
+    parser.add_argument("--port", type=int, default=8000, help="Port for the inspection viewer server")
     args = parser.parse_args()
 
+    # If --serve is invoked without an explicit video, start standalone viewer
+    if args.serve and (args.video is None or not os.path.exists(args.video)):
+        from src.viewer.server import start_server
+        logger.info(f"Launching standalone inspection viewer on port {args.port} for '{args.output_dir}' ...")
+        start_server(deliverables_dir=args.output_dir, port=args.port)
+        return
+
+    video_path = args.video or "data/samples/synthetic_drone_flight.mp4"
+    telemetry_path = args.telemetry or "data/samples/synthetic_drone_flight.srt"
+
     run_pipeline(
-        video_path=args.video,
-        telemetry_path=args.telemetry,
+        video_path=video_path,
+        telemetry_path=telemetry_path,
         output_dir=args.output_dir,
         config_path=args.config,
-        serve_viewer=args.serve
+        serve_viewer=args.serve,
+        port=args.port
     )
 
 

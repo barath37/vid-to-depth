@@ -8,6 +8,11 @@ import uvicorn
 
 
 def create_app(deliverables_dir: str = "data/output"):
+    if not os.path.exists(os.path.join(deliverables_dir, "reconstruction.glb")):
+        candidate = os.path.join("data", "output", "Family_run")
+        if os.path.exists(os.path.join(candidate, "reconstruction.glb")):
+            deliverables_dir = candidate
+
     app = FastAPI(title="SIH26158 3D Inspection Viewer", version="1.0.0")
 
     app.add_middleware(

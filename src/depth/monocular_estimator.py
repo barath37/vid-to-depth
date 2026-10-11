@@ -52,11 +52,21 @@ class MonocularDepthEstimator:
 
         from PIL import Image
         rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        pil_img = Image.fromarray(rgb)
 
+        # Scale down large frames (e.g. 4K) for 5x faster inference, then upsample depth
+        scale = 1.0
+        if max(h, w) > 1024:
+            scale = 1024.0 / max(h, w)
+            new_w, new_h = int(w * scale), int(h * scale)
+            rgb = cv2.resize(rgb, (new_w, new_h), interpolation=cv2.INTER_AREA)
+
+        pil_img = Image.fromarray(rgb)
         result = self.pipe(pil_img)
         depth_pil = result["depth"]
         depth_arr = np.array(depth_pil, dtype=np.float32)
+
+        if scale != 1.0:
+            depth_arr = cv2.resize(depth_arr, (w, h), interpolation=cv2.INTER_LINEAR)
 
         # Normalize to [0, 1]
         d_min, d_max = np.min(depth_arr), np.max(depth_arr)

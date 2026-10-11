@@ -28,6 +28,8 @@ dist/
 # Data Outputs & Cache
 data/output/
 *.log
+*.mp4
+data/samples/*.mp4
 
 # IDE & OS
 .vscode/
