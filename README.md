@@ -2,14 +2,14 @@
 
 <div align="center">
 
-[![SIH 2024](https://img.shields.io/badge/SIH%202024-Problem%20Statement%2026158-orange.svg?style=for-the-badge)](https://sih.gov.in)
+[![SIH 2026](https://img.shields.io/badge/SIH%202026-Problem%20Statement%2026158-orange.svg?style=for-the-badge)](https://sih.gov.in)
 [![Organization](https://img.shields.io/badge/Organization-NTRO-blue.svg?style=for-the-badge)](https://ntro.gov.in)
 [![Team](https://img.shields.io/badge/Team-ThunderBoltz-purple.svg?style=for-the-badge)](#team-thunderboltz)
-[![Tests](https://img.shields.io/badge/Tests-36%2F36%20Passing%20(100%25%20TDD)-success.svg?style=for-the-badge)](#engineering-rigor-the-flex)
+[![Tests](https://img.shields.io/badge/Tests-37%2F37%20Passing%20(100%25%20TDD)-success.svg?style=for-the-badge)](#engineering-rigor-the-flex)
 [![Accuracy](https://img.shields.io/badge/ASPRS%20RMSE-%E2%89%A4%200.45m%20(Target%20%E2%89%A4%201.0m)-blueviolet.svg?style=for-the-badge)](#benchmark-validation--accuracy-audit)
 [![Speed](https://img.shields.io/badge/Speed-%3C%204s%20Benchmark%20%2F%2015m%20Budget-brightgreen.svg?style=for-the-badge)](#benchmark-validation--accuracy-audit)
 
-**Smart India Hackathon (SIH) 2024 • Ministry / Organization: National Technical Research Organisation (NTRO)**  
+**Smart India Hackathon (SIH) 2026 • Ministry / Organization: National Technical Research Organisation (NTRO)**  
 *Theme: Robotics & Drones • Category: Software • Problem Statement ID: 26158 (Problem Statement – 17)*
 
 ```
@@ -257,7 +257,7 @@ pytest tests/ -v
 
 ## 👥 Team ThunderBoltz
 
-Developed for the **Smart India Hackathon 2024**  
+Developed for the **Smart India Hackathon 2026**  
 **National Technical Research Organisation (NTRO)** • Problem Statement **SIH26158**
 
 *For technical inquiries or live demonstration walkthroughs, please refer to the team representatives during jury evaluation.*
