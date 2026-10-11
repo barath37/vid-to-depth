@@ -133,3 +133,32 @@ def test_metric_trajectory_aligner_with_observability_lock():
     aligned_centers = np.array([p.center for p in aligned_poses])
     rmse = np.sqrt(np.mean(np.sum((aligned_centers - true_centers)**2, axis=1)))
     assert rmse < 0.5 # Sub-meter metric trajectory alignment
+
+
+def test_metric_trajectory_aligner_orbital_flight():
+    # Simulates an orbital circular flight around a target (Point-of-Interest)
+    N = 20
+    theta = np.linspace(0, 1.5 * np.pi, N)
+    radius = 40.0
+    true_centers = np.column_stack([radius * np.cos(theta), radius * np.sin(theta), np.full(N, 35.0)])
+
+    sfm_scale = 0.5
+    sfm_centers = true_centers * sfm_scale
+
+    poses = [CameraPose(i, np.eye(3), -sfm_centers[i]) for i in range(N)]
+
+    gravity = np.array([0.0, 0.0, -9.81])
+    ground_normal = np.array([0.0, 0.0, 1.0])
+
+    aligner = MetricTrajectoryAligner()
+    scale, R, t, aligned_poses = aligner.align_to_ekf(
+        poses,
+        true_centers,
+        gravity_vector=gravity,
+        ground_normal=ground_normal
+    )
+
+    assert pytest.approx(1.0 / sfm_scale, abs=0.05) == scale
+    aligned_centers = np.array([p.center for p in aligned_poses])
+    rmse = np.sqrt(np.mean(np.sum((aligned_centers - true_centers)**2, axis=1)))
+    assert rmse < 0.5

@@ -160,16 +160,24 @@ function setupUI() {
     document.getElementById("btn-mesh").addEventListener("click", (e) => {
         setActiveButton(e.target);
         if (currentMesh) {
-            currentMesh.visible = true;
-            currentMesh.material.wireframe = false;
+            currentMesh.traverse((child) => {
+                if (child.isMesh) {
+                    child.visible = true;
+                    child.material.wireframe = false;
+                }
+            });
         }
     });
 
     document.getElementById("btn-wireframe").addEventListener("click", (e) => {
         setActiveButton(e.target);
         if (currentMesh) {
-            currentMesh.visible = true;
-            currentMesh.material.wireframe = true;
+            currentMesh.traverse((child) => {
+                if (child.isMesh) {
+                    child.visible = true;
+                    child.material.wireframe = true;
+                }
+            });
         }
     });
 
@@ -184,42 +192,42 @@ function setActiveButton(btn) {
 }
 
 function toggleConfidenceOverlay(enabled) {
-    if (!currentMesh || !currentMesh.geometry) return;
+    if (!currentMesh) return;
 
-    if (enabled) {
-        // Apply epistemic confidence vertex colors: Green for rooftops/flats, Yellow for facade slopes, Red for occlusions
-        const geo = currentMesh.geometry;
-        const count = geo.attributes.position.count;
-        const colors = new Float32Array(count * 3);
+    currentMesh.traverse((child) => {
+        if (!child.isMesh || !child.geometry) return;
 
-        const pos = geo.attributes.position;
-        for (let i = 0; i < count; i++) {
-            const y = pos.getY(i);
-            if (y > 8.0) {
-                // High rooftop / measured terrain -> Green (>=0.7)
-                colors[i * 3] = 0.06;
-                colors[i * 3 + 1] = 0.72;
-                colors[i * 3 + 2] = 0.50;
-            } else if (y > 2.0) {
-                // Sloped facade -> Yellow (0.4-0.7)
-                colors[i * 3] = 0.96;
-                colors[i * 3 + 1] = 0.62;
-                colors[i * 3 + 2] = 0.04;
-            } else {
-                // Low occlusion boundary -> Red (<0.4)
-                colors[i * 3] = 0.94;
-                colors[i * 3 + 1] = 0.27;
-                colors[i * 3 + 2] = 0.27;
+        if (enabled) {
+            const geo = child.geometry;
+            const count = geo.attributes.position.count;
+            const colors = new Float32Array(count * 3);
+            const pos = geo.attributes.position;
+
+            for (let i = 0; i < count; i++) {
+                const y = pos.getY(i);
+                if (y > 8.0) {
+                    colors[i * 3] = 0.06;
+                    colors[i * 3 + 1] = 0.72;
+                    colors[i * 3 + 2] = 0.50;
+                } else if (y > 2.0) {
+                    colors[i * 3] = 0.96;
+                    colors[i * 3 + 1] = 0.62;
+                    colors[i * 3 + 2] = 0.04;
+                } else {
+                    colors[i * 3] = 0.94;
+                    colors[i * 3 + 1] = 0.27;
+                    colors[i * 3 + 2] = 0.27;
+                }
             }
+            geo.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+            child.material.vertexColors = true;
+            child.material.needsUpdate = true;
+        } else {
+            child.material.vertexColors = false;
+            child.material.color.setHex(0x94a3b8);
+            child.material.needsUpdate = true;
         }
-        geo.setAttribute("color", new THREE.BufferAttribute(colors, 3));
-        currentMesh.material.vertexColors = true;
-        currentMesh.material.needsUpdate = true;
-    } else {
-        currentMesh.material.vertexColors = false;
-        currentMesh.material.color.setHex(0x94a3b8);
-        currentMesh.material.needsUpdate = true;
-    }
+    });
 }
 
 function loadDefaultModel() {
@@ -228,12 +236,34 @@ function loadDefaultModel() {
     loader.load(
         "/api/download/reconstruction.glb",
         (gltf) => {
-            currentMesh = gltf.scene.children[0] || gltf.scene;
+            currentMesh = gltf.scene;
             scene.add(gltf.scene);
+
+            // Compute precise bounding box and centroid
+            const box = new THREE.Box3().setFromObject(gltf.scene);
+            const center = box.getCenter(new THREE.Vector3());
+            const size = box.getSize(new THREE.Vector3());
+            const maxDim = Math.max(size.x, size.y, size.z, 5.0);
+
+            // Dynamically fit camera to model dimensions
+            const fov = camera.fov * (Math.PI / 180);
+            let cameraDist = Math.abs(maxDim / 2 / Math.tan(fov / 2)) * 1.5;
+            cameraDist = Math.max(cameraDist, 10.0);
+
+            camera.near = Math.max(0.1, maxDim / 500);
+            camera.far = Math.max(2000, maxDim * 50);
+            camera.updateProjectionMatrix();
+
+            camera.position.set(center.x, center.y + maxDim * 0.4, center.z + cameraDist);
+            camera.lookAt(center);
+            controls.target.copy(center);
+            controls.update();
+
+            console.log(`Auto-centered mesh at [${center.x.toFixed(2)}, ${center.y.toFixed(2)}, ${center.z.toFixed(2)}], size: [${size.x.toFixed(2)}, ${size.y.toFixed(2)}, ${size.z.toFixed(2)}]`);
         },
         undefined,
         (err) => {
-            // Fallback: Generate procedural representation of the drone flight scene
+            console.warn("Could not load reconstruction.glb, falling back to procedural scene.", err);
             createProceduralScene();
         }
     );

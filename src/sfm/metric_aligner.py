@@ -30,9 +30,14 @@ class MetricTrajectoryAligner:
         scale, R_sim, t_sim = umeyama_sim3(sfm_centers, ekf_positions, with_scale=True)
 
         # Step 2: Observability Trap Resolution (§4.3 of Spec)
-        # If flight path is straight/collinear, roll around the path is ambiguous.
-        # Constrain roll and pitch using IMU gravity and dominant ground plane normal.
-        if gravity_vector is not None and ground_normal is not None:
+        # Check trajectory curvature / collinearity via SVD of centered EKF positions
+        centered_ekf = ekf_positions - np.mean(ekf_positions, axis=0)
+        _, s_vals, _ = np.linalg.svd(centered_ekf)
+        collinearity_ratio = float(s_vals[1] / max(s_vals[0], 1e-6)) if len(s_vals) > 1 else 0.0
+        is_collinear = (collinearity_ratio < 0.15)
+
+        # Apply roll-lock only on collinear paths; bypass on orbital/curved flights
+        if is_collinear and gravity_vector is not None and ground_normal is not None:
             R_roll_lock = align_gravity_and_ground_plane(gravity_vector, ground_normal)
             # Combine rotations: R_final = R_roll_lock @ R_sim
             R_sim = R_roll_lock @ R_sim
