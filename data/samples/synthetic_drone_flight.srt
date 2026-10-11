@@ -1,0 +1,839 @@
+1
+00:00:00,000 --> 00:00:00,100
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016800, 16) BAROMETER: 60.0M
+[latitude: 11.016800] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+2
+00:00:00,100 --> 00:00:00,200
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016805, 16) BAROMETER: 60.0M
+[latitude: 11.016805] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+3
+00:00:00,200 --> 00:00:00,300
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016811, 16) BAROMETER: 60.0M
+[latitude: 11.016811] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+4
+00:00:00,300 --> 00:00:00,400
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016816, 16) BAROMETER: 60.0M
+[latitude: 11.016816] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+5
+00:00:00,400 --> 00:00:00,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016822, 16) BAROMETER: 60.0M
+[latitude: 11.016822] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+6
+00:00:00,500 --> 00:00:00,600
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016827, 16) BAROMETER: 60.0M
+[latitude: 11.016827] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+7
+00:00:00,600 --> 00:00:00,700
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016833, 16) BAROMETER: 60.0M
+[latitude: 11.016833] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+8
+00:00:00,700 --> 00:00:00,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016838, 16) BAROMETER: 60.0M
+[latitude: 11.016838] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+9
+00:00:00,800 --> 00:00:00,900
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016843, 16) BAROMETER: 60.0M
+[latitude: 11.016843] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+10
+00:00:00,900 --> 00:00:01,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016849, 16) BAROMETER: 60.0M
+[latitude: 11.016849] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+11
+00:00:01,000 --> 00:00:01,100
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016854, 16) BAROMETER: 60.0M
+[latitude: 11.016854] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+12
+00:00:01,100 --> 00:00:01,200
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016860, 16) BAROMETER: 60.0M
+[latitude: 11.016860] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+13
+00:00:01,199 --> 00:00:01,300
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016865, 16) BAROMETER: 60.0M
+[latitude: 11.016865] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+14
+00:00:01,300 --> 00:00:01,400
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016871, 16) BAROMETER: 60.0M
+[latitude: 11.016871] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+15
+00:00:01,399 --> 00:00:01,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016876, 16) BAROMETER: 60.0M
+[latitude: 11.016876] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+16
+00:00:01,500 --> 00:00:01,600
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016881, 16) BAROMETER: 60.0M
+[latitude: 11.016881] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+17
+00:00:01,600 --> 00:00:01,700
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016887, 16) BAROMETER: 60.0M
+[latitude: 11.016887] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+18
+00:00:01,700 --> 00:00:01,800
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016892, 16) BAROMETER: 60.0M
+[latitude: 11.016892] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+19
+00:00:01,800 --> 00:00:01,900
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016898, 16) BAROMETER: 60.0M
+[latitude: 11.016898] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+20
+00:00:01,899 --> 00:00:02,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016903, 16) BAROMETER: 60.0M
+[latitude: 11.016903] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+21
+00:00:02,000 --> 00:00:02,100
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016908, 16) BAROMETER: 60.0M
+[latitude: 11.016908] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+22
+00:00:02,100 --> 00:00:02,200
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016914, 16) BAROMETER: 60.0M
+[latitude: 11.016914] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+23
+00:00:02,200 --> 00:00:02,300
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016919, 16) BAROMETER: 60.0M
+[latitude: 11.016919] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+24
+00:00:02,299 --> 00:00:02,399
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016925, 16) BAROMETER: 60.0M
+[latitude: 11.016925] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+25
+00:00:02,399 --> 00:00:02,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016930, 16) BAROMETER: 60.0M
+[latitude: 11.016930] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+26
+00:00:02,500 --> 00:00:02,600
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016936, 16) BAROMETER: 60.0M
+[latitude: 11.016936] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+27
+00:00:02,600 --> 00:00:02,700
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016941, 16) BAROMETER: 60.0M
+[latitude: 11.016941] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+28
+00:00:02,700 --> 00:00:02,800
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016946, 16) BAROMETER: 60.0M
+[latitude: 11.016946] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+29
+00:00:02,799 --> 00:00:02,899
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016952, 16) BAROMETER: 60.0M
+[latitude: 11.016952] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+30
+00:00:02,899 --> 00:00:03,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016957, 16) BAROMETER: 60.0M
+[latitude: 11.016957] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+31
+00:00:03,000 --> 00:00:03,100
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016963, 16) BAROMETER: 60.0M
+[latitude: 11.016963] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+32
+00:00:03,100 --> 00:00:03,200
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016968, 16) BAROMETER: 60.0M
+[latitude: 11.016968] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+33
+00:00:03,200 --> 00:00:03,300
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016974, 16) BAROMETER: 60.0M
+[latitude: 11.016974] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+34
+00:00:03,299 --> 00:00:03,399
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016979, 16) BAROMETER: 60.0M
+[latitude: 11.016979] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+35
+00:00:03,399 --> 00:00:03,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016984, 16) BAROMETER: 60.0M
+[latitude: 11.016984] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+36
+00:00:03,500 --> 00:00:03,600
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016990, 16) BAROMETER: 60.0M
+[latitude: 11.016990] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+37
+00:00:03,600 --> 00:00:03,700
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.016995, 16) BAROMETER: 60.0M
+[latitude: 11.016995] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+38
+00:00:03,700 --> 00:00:03,800
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017001, 16) BAROMETER: 60.0M
+[latitude: 11.017001] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+39
+00:00:03,799 --> 00:00:03,899
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017006, 16) BAROMETER: 60.0M
+[latitude: 11.017006] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+40
+00:00:03,899 --> 00:00:04,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017012, 16) BAROMETER: 60.0M
+[latitude: 11.017012] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+41
+00:00:04,000 --> 00:00:04,099
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017017, 16) BAROMETER: 60.0M
+[latitude: 11.017017] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+42
+00:00:04,099 --> 00:00:04,199
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017022, 16) BAROMETER: 60.0M
+[latitude: 11.017022] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+43
+00:00:04,200 --> 00:00:04,299
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017028, 16) BAROMETER: 60.0M
+[latitude: 11.017028] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+44
+00:00:04,299 --> 00:00:04,399
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017033, 16) BAROMETER: 60.0M
+[latitude: 11.017033] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+45
+00:00:04,400 --> 00:00:04,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017039, 16) BAROMETER: 60.0M
+[latitude: 11.017039] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+46
+00:00:04,500 --> 00:00:04,599
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017044, 16) BAROMETER: 60.0M
+[latitude: 11.017044] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+47
+00:00:04,599 --> 00:00:04,699
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017049, 16) BAROMETER: 60.0M
+[latitude: 11.017049] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+48
+00:00:04,700 --> 00:00:04,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017055, 16) BAROMETER: 60.0M
+[latitude: 11.017055] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+49
+00:00:04,799 --> 00:00:04,899
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017060, 16) BAROMETER: 60.0M
+[latitude: 11.017060] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+50
+00:00:04,900 --> 00:00:05,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017066, 16) BAROMETER: 60.0M
+[latitude: 11.017066] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+51
+00:00:05,000 --> 00:00:05,099
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017071, 16) BAROMETER: 60.0M
+[latitude: 11.017071] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+52
+00:00:05,099 --> 00:00:05,199
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017077, 16) BAROMETER: 60.0M
+[latitude: 11.017077] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+53
+00:00:05,200 --> 00:00:05,299
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017082, 16) BAROMETER: 60.0M
+[latitude: 11.017082] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+54
+00:00:05,299 --> 00:00:05,399
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017087, 16) BAROMETER: 60.0M
+[latitude: 11.017087] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+55
+00:00:05,400 --> 00:00:05,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017093, 16) BAROMETER: 60.0M
+[latitude: 11.017093] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+56
+00:00:05,500 --> 00:00:05,599
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017098, 16) BAROMETER: 60.0M
+[latitude: 11.017098] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+57
+00:00:05,599 --> 00:00:05,699
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017104, 16) BAROMETER: 60.0M
+[latitude: 11.017104] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+58
+00:00:05,700 --> 00:00:05,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017109, 16) BAROMETER: 60.0M
+[latitude: 11.017109] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+59
+00:00:05,799 --> 00:00:05,899
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017115, 16) BAROMETER: 60.0M
+[latitude: 11.017115] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+60
+00:00:05,900 --> 00:00:06,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017120, 16) BAROMETER: 60.0M
+[latitude: 11.017120] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+61
+00:00:06,000 --> 00:00:06,099
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017125, 16) BAROMETER: 60.0M
+[latitude: 11.017125] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+62
+00:00:06,099 --> 00:00:06,199
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017131, 16) BAROMETER: 60.0M
+[latitude: 11.017131] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+63
+00:00:06,200 --> 00:00:06,299
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017136, 16) BAROMETER: 60.0M
+[latitude: 11.017136] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+64
+00:00:06,299 --> 00:00:06,399
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017142, 16) BAROMETER: 60.0M
+[latitude: 11.017142] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+65
+00:00:06,400 --> 00:00:06,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017147, 16) BAROMETER: 60.0M
+[latitude: 11.017147] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+66
+00:00:06,500 --> 00:00:06,599
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017153, 16) BAROMETER: 60.0M
+[latitude: 11.017153] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+67
+00:00:06,599 --> 00:00:06,699
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017158, 16) BAROMETER: 60.0M
+[latitude: 11.017158] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+68
+00:00:06,700 --> 00:00:06,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017163, 16) BAROMETER: 60.0M
+[latitude: 11.017163] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+69
+00:00:06,799 --> 00:00:06,899
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017169, 16) BAROMETER: 60.0M
+[latitude: 11.017169] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+70
+00:00:06,900 --> 00:00:07,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017174, 16) BAROMETER: 60.0M
+[latitude: 11.017174] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+71
+00:00:07,000 --> 00:00:07,099
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017180, 16) BAROMETER: 60.0M
+[latitude: 11.017180] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+72
+00:00:07,099 --> 00:00:07,199
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017185, 16) BAROMETER: 60.0M
+[latitude: 11.017185] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+73
+00:00:07,200 --> 00:00:07,299
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017191, 16) BAROMETER: 60.0M
+[latitude: 11.017191] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+74
+00:00:07,299 --> 00:00:07,399
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017196, 16) BAROMETER: 60.0M
+[latitude: 11.017196] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+75
+00:00:07,400 --> 00:00:07,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017201, 16) BAROMETER: 60.0M
+[latitude: 11.017201] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+76
+00:00:07,500 --> 00:00:07,599
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017207, 16) BAROMETER: 60.0M
+[latitude: 11.017207] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+77
+00:00:07,599 --> 00:00:07,699
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017212, 16) BAROMETER: 60.0M
+[latitude: 11.017212] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+78
+00:00:07,700 --> 00:00:07,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017218, 16) BAROMETER: 60.0M
+[latitude: 11.017218] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+79
+00:00:07,799 --> 00:00:07,899
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017223, 16) BAROMETER: 60.0M
+[latitude: 11.017223] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+80
+00:00:07,900 --> 00:00:08,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017228, 16) BAROMETER: 60.0M
+[latitude: 11.017228] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+81
+00:00:08,000 --> 00:00:08,099
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017234, 16) BAROMETER: 60.0M
+[latitude: 11.017234] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+82
+00:00:08,099 --> 00:00:08,199
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017239, 16) BAROMETER: 60.0M
+[latitude: 11.017239] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+83
+00:00:08,199 --> 00:00:08,299
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017245, 16) BAROMETER: 60.0M
+[latitude: 11.017245] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+84
+00:00:08,300 --> 00:00:08,400
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017250, 16) BAROMETER: 60.0M
+[latitude: 11.017250] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+85
+00:00:08,400 --> 00:00:08,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017256, 16) BAROMETER: 60.0M
+[latitude: 11.017256] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+86
+00:00:08,500 --> 00:00:08,599
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017261, 16) BAROMETER: 60.0M
+[latitude: 11.017261] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+87
+00:00:08,599 --> 00:00:08,699
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017266, 16) BAROMETER: 60.0M
+[latitude: 11.017266] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+88
+00:00:08,699 --> 00:00:08,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017272, 16) BAROMETER: 60.0M
+[latitude: 11.017272] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+89
+00:00:08,800 --> 00:00:08,900
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017277, 16) BAROMETER: 60.0M
+[latitude: 11.017277] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+90
+00:00:08,900 --> 00:00:09,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017283, 16) BAROMETER: 60.0M
+[latitude: 11.017283] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+91
+00:00:09,000 --> 00:00:09,099
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017288, 16) BAROMETER: 60.0M
+[latitude: 11.017288] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+92
+00:00:09,099 --> 00:00:09,199
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017294, 16) BAROMETER: 60.0M
+[latitude: 11.017294] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+93
+00:00:09,199 --> 00:00:09,299
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017299, 16) BAROMETER: 60.0M
+[latitude: 11.017299] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+94
+00:00:09,300 --> 00:00:09,400
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017304, 16) BAROMETER: 60.0M
+[latitude: 11.017304] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+95
+00:00:09,400 --> 00:00:09,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017310, 16) BAROMETER: 60.0M
+[latitude: 11.017310] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+96
+00:00:09,500 --> 00:00:09,599
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017315, 16) BAROMETER: 60.0M
+[latitude: 11.017315] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+97
+00:00:09,599 --> 00:00:09,699
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017321, 16) BAROMETER: 60.0M
+[latitude: 11.017321] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+98
+00:00:09,699 --> 00:00:09,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017326, 16) BAROMETER: 60.0M
+[latitude: 11.017326] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+99
+00:00:09,800 --> 00:00:09,900
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017332, 16) BAROMETER: 60.0M
+[latitude: 11.017332] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+100
+00:00:09,900 --> 00:00:10,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017337, 16) BAROMETER: 60.0M
+[latitude: 11.017337] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+101
+00:00:10,000 --> 00:00:10,099
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017342, 16) BAROMETER: 60.0M
+[latitude: 11.017342] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+102
+00:00:10,099 --> 00:00:10,199
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017348, 16) BAROMETER: 60.0M
+[latitude: 11.017348] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+103
+00:00:10,199 --> 00:00:10,299
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017353, 16) BAROMETER: 60.0M
+[latitude: 11.017353] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+104
+00:00:10,300 --> 00:00:10,400
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017359, 16) BAROMETER: 60.0M
+[latitude: 11.017359] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+105
+00:00:10,400 --> 00:00:10,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017364, 16) BAROMETER: 60.0M
+[latitude: 11.017364] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+106
+00:00:10,500 --> 00:00:10,599
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017370, 16) BAROMETER: 60.0M
+[latitude: 11.017370] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+107
+00:00:10,599 --> 00:00:10,699
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017375, 16) BAROMETER: 60.0M
+[latitude: 11.017375] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+108
+00:00:10,699 --> 00:00:10,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017380, 16) BAROMETER: 60.0M
+[latitude: 11.017380] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+109
+00:00:10,800 --> 00:00:10,900
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017386, 16) BAROMETER: 60.0M
+[latitude: 11.017386] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+110
+00:00:10,900 --> 00:00:11,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017391, 16) BAROMETER: 60.0M
+[latitude: 11.017391] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+111
+00:00:11,000 --> 00:00:11,099
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017397, 16) BAROMETER: 60.0M
+[latitude: 11.017397] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+112
+00:00:11,099 --> 00:00:11,199
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017402, 16) BAROMETER: 60.0M
+[latitude: 11.017402] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+113
+00:00:11,199 --> 00:00:11,299
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017407, 16) BAROMETER: 60.0M
+[latitude: 11.017407] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+114
+00:00:11,300 --> 00:00:11,400
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017413, 16) BAROMETER: 60.0M
+[latitude: 11.017413] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+115
+00:00:11,400 --> 00:00:11,500
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017418, 16) BAROMETER: 60.0M
+[latitude: 11.017418] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+116
+00:00:11,500 --> 00:00:11,599
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017424, 16) BAROMETER: 60.0M
+[latitude: 11.017424] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+117
+00:00:11,599 --> 00:00:11,699
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017429, 16) BAROMETER: 60.0M
+[latitude: 11.017429] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+118
+00:00:11,699 --> 00:00:11,799
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017435, 16) BAROMETER: 60.0M
+[latitude: 11.017435] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+119
+00:00:11,800 --> 00:00:11,900
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017440, 16) BAROMETER: 60.0M
+[latitude: 11.017440] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]
+
+120
+00:00:11,900 --> 00:00:12,000
+HOME(76.9558,11.0168)
+GPS(76.955800, 11.017445, 16) BAROMETER: 60.0M
+[latitude: 11.017445] [longitude: 76.955800] [rel_altitude: 60.000] [abs_altitude: 460.000]
+[gimbal_pitch: -60.0] [gimbal_roll: 0.0] [gimbal_yaw: 0.0]

@@ -1,0 +1,41 @@
+{
+  "tennis_court": {
+    "length_m": 23.77,
+    "width_m": 10.97,
+    "center_enu": [
+      12.0,
+      70.0,
+      0.0
+    ]
+  },
+  "container": {
+    "length_m": 12.19,
+    "width_m": 2.44,
+    "height_m": 2.6,
+    "center_enu": [
+      -10.0,
+      20.0,
+      1.3
+    ]
+  },
+  "building_1": {
+    "width_x_m": 20.0,
+    "length_y_m": 15.0,
+    "height_z_m": 12.0,
+    "center_enu": [
+      15.0,
+      30.0,
+      6.0
+    ]
+  },
+  "building_2": {
+    "width_x_m": 16.0,
+    "length_y_m": 14.0,
+    "height_z_m": 15.0,
+    "center_enu": [
+      -18.0,
+      60.0,
+      7.5
+    ]
+  }
+}
