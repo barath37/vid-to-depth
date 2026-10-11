@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Build & Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Data Outputs & Cache
+data/output/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

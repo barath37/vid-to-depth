@@ -1,0 +1,85 @@
+# Pipeline Configuration for SIH26158
+# Single-Pass Drone Video to Accurate 3D Model Generation System
+
+pipeline:
+  name: "SIH26158-VidToDepth"
+  version: "1.0.0"
+  target_processing_time_minutes: 15.0
+
+# Step 0: Sensor Fusion & Telemetry Ingestion
+sensor_fusion:
+  chi_square_threshold: 9.21 # 99% gate for 2-DOF GPS innovation
+  enable_rts_smoother: true
+  time_sync_search_window_sec: 2.0
+  gnss_noise_std_meters: 1.5
+  baro_noise_std_meters: 0.5
+  imu_accel_noise_std: 0.2
+  imu_gyro_noise_std: 0.05
+  default_crs_epsg: 32643 # UTM Zone 43N (central India)
+
+# Step 1: Intelligent Adaptive Keyframing
+keyframing:
+  target_overlap: 0.85 # 85% forward overlap
+  min_keyframes: 250
+  max_keyframes: 350
+  hard_cap_keyframes: 400
+  blur_laplacian_threshold: 80.0
+  turn_rate_threshold_deg_s: 15.0
+  feature_overlap_drop_threshold: 0.60
+  enable_yolo_masking: true
+  yolo_model: "yolov8n.pt"
+
+# Step 2: Structure from Motion & Global Alignment
+sfm:
+  feature_detector: "ORB" # ORB or SIFT
+  n_features: 2000
+  matching_window: 4 # +/- 4 frames sequential matching
+  min_triangulation_angle_deg: 2.0
+  max_reprojection_error_px: 2.5
+  enable_global_bundle_adjustment: true
+  sim3_ransac_threshold_meters: 1.0
+
+# Step 3: Confidence-Aware Depth Completion
+depth:
+  backbone: "depth_anything_v2_small"
+  model_repo: "depth-anything/Depth-Anything-V2-Small-hf"
+  fp16: true
+  sparse_to_dense_huber_delta: 1.0
+  max_depth_meters: 300.0
+  sky_mask_threshold: 0.98
+  confidence_weights:
+    anchor_proximity: 0.25
+    parallax_angle: 0.25
+    multiview_agreement: 0.25
+    temporal_stability: 0.25
+  thresholds:
+    green: 0.70 # Measured / verified
+    yellow: 0.40 # Supported
+    red: 0.00 # Inferred / occluded
+
+# Step 4: Dual-Tier Reconstruction
+reconstruction:
+  tier1_ortho_resolution_m: 0.10 # 10 cm/pixel
+  tier1_dsm_resolution_m: 0.20 # 20 cm/pixel
+  pointcloud_voxel_size_m: 0.15
+  poisson_depth: 10
+  poisson_density_trim_quantile: 0.02 # Trim bottom 2% density ballooning
+  enable_3dgs_visual_tier: true
+  gs_iterations: 3000
+
+# Step 5: GIS & 3D Multi-Format Export
+export:
+  formats:
+    - "obj"
+    - "ply"
+    - "glb"
+    - "las"
+    - "geotiff"
+    - "fbx"
+  las_scale: 0.001 # 1 mm integer precision
+  subdivide_local_origin: true
+
+# Step 6: Web Inspection Viewer
+viewer:
+  host: "127.0.0.1"
+  port: 8000
