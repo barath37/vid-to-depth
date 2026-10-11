@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTRO SIH26158 — 3D Reconstruction & Inspection Viewer</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- Three.js and OrbitControls via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-left">
+            <span class="badge-tag">NTRO • SIH26158</span>
+            <h1>Single-Pass Drone Video to 3D Inspection Viewer</h1>
+        </div>
+        <div class="header-right">
+            <span id="crs-badge" class="badge">CRS: EPSG:32643 (UTM 43N)</span>
+            <span id="status-badge" class="badge live">STATUS: SYSTEM READY</span>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- 3D WebGL Canvas -->
+        <div id="viewport-container">
+            <canvas id="webgl-canvas"></canvas>
+            <div id="crosshair"></div>
+            <div id="coords-display">ENU: X: 0.00m | Y: 0.00m | Z: 0.00m</div>
+        </div>
+
+        <!-- Sidebar Control Panel -->
+        <aside class="control-panel">
+            <section class="panel-section">
+                <h2>Visualization Layers</h2>
+                <div class="btn-group">
+                    <button id="btn-mesh" class="btn active">3D Mesh</button>
+                    <button id="btn-wireframe" class="btn">Wireframe</button>
+                    <button id="btn-pointcloud" class="btn">Point Cloud</button>
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <h2>Epistemic Confidence Overlay (§9)</h2>
+                <div class="toggle-container">
+                    <label class="switch">
+                        <input type="checkbox" id="confidence-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="toggle-label">Confidence Heatmap Overlay</span>
+                </div>
+                <div class="confidence-legend">
+                    <div class="legend-item"><span class="swatch green"></span> Green: Measured / BA-Verified (&ge;0.70)</div>
+                    <div class="legend-item"><span class="swatch yellow"></span> Yellow: Partially Supported (0.40 - 0.70)</div>
+                    <div class="legend-item"><span class="swatch red"></span> Red: AI-Inferred / Occluded (&lt;0.40)</div>
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <h2>3D Metric Measurement Toolkit (§12)</h2>
+                <div class="btn-group">
+                    <button id="btn-measure-dist" class="btn">Pick Distance (2 pts)</button>
+                    <button id="btn-measure-clear" class="btn secondary">Clear Marks</button>
+                </div>
+                <div id="measurement-results" class="results-box">
+                    <div class="result-row"><span>Distance:</span> <strong id="val-dist">--</strong></div>
+                    <div class="result-row"><span>Height Diff (ΔZ):</span> <strong id="val-dz">--</strong></div>
+                    <div class="result-row"><span>Estimated Uncertainty:</span> <strong id="val-uncertainty">--</strong></div>
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <h2>Deliverables (§0)</h2>
+                <ul id="deliverables-list" class="file-list">
+                    <li>Loading deliverables...</li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
