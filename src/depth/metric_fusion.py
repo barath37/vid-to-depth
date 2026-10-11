@@ -32,7 +32,8 @@ def align_relative_depth_to_metric(
     # Initial guess via standard linear least squares
     A = np.column_stack([sample_rel, np.ones_like(sample_rel)])
     res_lstsq, _, _, _ = np.linalg.lstsq(A, sparse_metric_depths, rcond=None)
-    s0, b0 = float(res_lstsq[0]), float(res_lstsq[1])
+    s0 = float(np.clip(res_lstsq[0], 0.2, 450.0))
+    b0 = float(np.clip(res_lstsq[1], -90.0, 450.0))
 
     # Robust Huber fitting to reject triangulation outliers
     def residuals(params):
